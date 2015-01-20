@@ -18,10 +18,38 @@
 @SILVER:  #DDDDDD;
 
 body{
-  background-color: @YELLOW;
+  // background-color: @YELLOW;
+  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/radial_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F2F2F2), to(#9F9F9F));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #F2F2F2, #9F9F9F);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #F2F2F2, #9F9F9F);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #F2F2F2, #9F9F9F);
 }
 
 input.ng-invalid, select.ng-invalid{
   background-color: @RED;
 }
 
+#bottom_fade {
+  // width: 600px;
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  z-index: 99;
+  position: fixed;
+  bottom: 0px;
+  background: url("assets/bottom-fade.png") bottom center no-repeat;
+}

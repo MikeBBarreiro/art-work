@@ -34,4 +34,3 @@ exports.logout = function(req, res){
     res.status(200).end();
   });
 };
-
