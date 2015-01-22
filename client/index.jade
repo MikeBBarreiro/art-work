@@ -8,7 +8,9 @@ html(ng-app='mean-template', lang='en')
     link(href='/vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
     link(href='/vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
     link(href='/vendor/toastr/toastr.css', rel='stylesheet')
-    link(href='/index.css', rel='stylesheet')
+    link(href='/index.css',                rel='stylesheet')
+    link(href='/assets/css/style.css',     rel='stylesheet')
+    
   body
     include nav
     .container
@@ -16,7 +18,7 @@ html(ng-app='mean-template', lang='en')
         .col-xs-12
           #container(ng-view)
           //- #bottom_fade
-
+    
     script(src='/vendor/angular/angular.js')
     script(src='/vendor/angular-route/angular-route.js')
     script(src='/vendor/jquery/dist/jquery.js')
@@ -35,3 +37,5 @@ html(ng-app='mean-template', lang='en')
     script(src='/components/factories/home.js')
     script(src='/components/factories/user.js')
     script(src='/components/factories/http-interceptor.js')
+    
+    
