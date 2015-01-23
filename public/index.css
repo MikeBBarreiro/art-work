@@ -28,7 +28,9 @@ select.ng-invalid {
   background: url("assets/bottom-fade.png") bottom center no-repeat;
 }
 h3 {
-  text-align: center;
+  margin-left: 5%;
+  margin-top: -2%;
+  position: absolute;
 }
 h2 {
   text-align: center;
@@ -38,11 +40,17 @@ h2 {
   margin-left: 10%;
   height: 200px;
   width: 80%;
-  padding: 20px;
   border: 2px solid black;
-  background-image: url('assets/nature-rain-hd.jpg');
-  background-size: cover;
+  background-image: url('http://thewallpaperhd.com/wp-content/uploads/2013/03/desktop-backgrounds-nature.jpg');
+  background-size: 100% 50%;
   background-attachment: fixed;
   background-position: 50% 0;
   position: relative;
+}
+.headerMainPicCon {
+  padding-top: 40px;
+  margin-top: 96px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(74, 109, 225, 0.5);
 }
