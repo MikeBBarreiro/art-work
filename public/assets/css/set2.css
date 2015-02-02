@@ -697,7 +697,8 @@ figure.effect-phoebe:hover p a {
 /*-----------------*/
 
 figure.effect-apollo {
-	background: #3498db;
+	/*background: #3498db;*/
+	background: RGBA(49, 41, 41, 1)
 }
 
 figure.effect-apollo img {
