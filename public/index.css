@@ -32,9 +32,10 @@ h3 {
   margin-top: -2%;
   position: absolute;
 }
-h2 {
-  text-align: center;
-  margin-top: 1000px;
+.welcome {
+  margin-left: 19%;
+  margin-top: 10%;
+  font-size: 500%;
 }
 .containerMainPic {
   margin-top: -20px;

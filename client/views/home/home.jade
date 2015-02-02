@@ -1,9 +1,31 @@
 //- .panel
 .mainContain
   .containerMainPic(data-stellar-background-ratio='0.5')
-    .headerMainPicCon
-      h3 Welcome
+    //- .headerMainPicCon.animated.fadeInDown(style='-webkit-animation-delay: 1s;')
+    h3.welcome.animated.fadeInLeft Welcome
   //- ul(ng-show='mean')
     li(ng-repeat='technology in mean') {{technology}}
+h2 Apollo
+.grid
+  figure.effect-apollo
+    img(src='assets/18.jpg', alt='img18')
+    figcaption
+      h2 Strong 
+        span Word
+      p 1 + 1 is only 2 on planet earth.
+      a(href='#') View more
 
-h2 Welcome
+  figure.effect-apollo
+    img(src='assets/18.jpg', alt='img18')
+    figcaption
+      h2 Strong 
+        span Word
+      p here we see an amazing display of AWESOME..
+      a(href='#') View more
+//- figure.effect-apollo
+//-   img(src='img/22.jpg', alt='img22')
+//-   figcaption
+//-     h2 Strong 
+//-       span Apollo
+//-     p Apollo's last game of pool was so strange.
+//-     a(href='#') View more
