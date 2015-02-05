@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Cinzel+Decorative);
 body {
   /* fallback */
   background-color: #2F2727;
@@ -59,4 +60,15 @@ h3 {
 }
 .mainContain {
   background-color: black;
+}
+.imgModal {
+  height: 600px;
+  width: 100%;
+  border: 2px solid black;
+  background-image: url('/assets/celestial_lion12x18.png');
+  background-size: cover;
+}
+.lionH {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
 }

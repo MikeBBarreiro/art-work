@@ -7,21 +7,25 @@
     li(ng-repeat='technology in mean') {{technology}}
 h2 Master/Pieces
 .grid
-  figure.effect-apollo
-    img(src='assets/celestial_lion12x18.png', alt='img18')
+  figure.effect-jazz
+    img(src='assets/celestial_lion12x18.png', alt='img25')
     figcaption
       h2 The Celestial 
         span lion
       p 'As the coalition of matter ensues, the lion imbues a lucky few with life.' a pointillism drawing melded with a liquid acrylic backdrop.
-      a(href='/#/') View more
-
-  figure.effect-apollo
-    img(src='assets/Cosmic_mare12x18.png', alt='img18')
+      a(href='/#/', data-toggle="modal" data-target=".bs-example-modal-lg") View more
+  figure.effect-jazz
+    img(src='assets/Cosmic_mare12x18.png', alt='img25')
     figcaption
       h2 The Cosmic 
         span Mare
       p 'The waxes and wanes of universal change are met with the face of the mare.' a pointillism drawing melded with a liquid acrylic backdrop.
-      a(href='/#/') View more    
+      a(href='/#/') View more
+.modal.fade.bs-example-modal-lg(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      h2.lionH The Celestial Lion
+      .imgModal
 .grid
   figure.effect-apollo
     img(src='assets/just_a_passenger12x18.png', alt='img18')
@@ -37,6 +41,29 @@ h2 Master/Pieces
         span Thought
       p 'Imagination is but a soup of thoughts and desires, mixed with aspirations and goals, but when portrayed with color it can break all the molds. A liquid acrylic painting.
       a(href='/#/') View more
+//- .grid
+//-   figure.effect-apollo
+//-     img(src='assets/dwarfs-and-giants.png', alt='img18')
+//-     figcaption
+//-       h2 Dwarf And 
+//-         span Giants
+//-       p 'The compass of curiosity has led a race of simpletons into the wonders of the cosmos.' pen drawing with a liquid acrylic space-scape edited into it.
+//-       a(href='/#/') View more
+//-   figure.effect-apollo
+//-     img(src='assets/moonage_daydream12x18.png', alt='img18')
+//-     figcaption
+//-       h2 Moonage 
+//-         span Daydream
+//-       p 'After a trip to the moon our whole planet changed; the influence of humanity forever pushing the boundaries.' a liquid acrylic painting.
+//-       a(href='/#/') View more
+//- .grid
+//-   figure.effect-apollo
+//-     img(src='assets/cosmikowl.png', alt='img18')
+//-     figcaption
+//-       h2 Cosmic 
+//-         span Owl
+//-       p ...
+//-       a(href='/#/') View more
 //-       h2 Ming
 //- .grid
 //-   figure.effect-ming
@@ -53,28 +80,4 @@ h2 Master/Pieces
 //-         span Daydream
 //-       p 'After a trip to the moon our whole planet changed; the influence of humanity forever pushing the boundaries.' a liquid acrylic painting.
 //-       a(href='#') View more
-
-.grid
-  figure.effect-apollo
-    img(src='assets/dwarfs-and-giants.png', alt='img18')
-    figcaption
-      h2 Dwarf And 
-        span Giants
-      p 'The compass of curiosity has led a race of simpletons into the wonders of the cosmos.' pen drawing with a liquid acrylic space-scape edited into it.
-      a(href='/#/') View more
-  figure.effect-apollo
-    img(src='assets/moonage_daydream12x18.png', alt='img18')
-    figcaption
-      h2 Moonage 
-        span Daydream
-      p 'After a trip to the moon our whole planet changed; the influence of humanity forever pushing the boundaries.' a liquid acrylic painting.
-      a(href='/#/') View more
-.grid
-  figure.effect-apollo
-    img(src='assets/cosmikowl.png', alt='img18')
-    figcaption
-      h2 Cosmic 
-        span Owl
-      p ...
-      a(href='/#/') View more
 h4 welcome

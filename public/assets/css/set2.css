@@ -987,8 +987,8 @@ figure.effect-moses:hover img {
 /*---------------*/
 
 figure.effect-jazz {
-	background: -webkit-linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
-	background: linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
+	background: -webkit-linear-gradient(-45deg, RGBA(49, 41, 41, 1) 0%,RGBA(49, 41, 41, 1) 100%);
+	background: linear-gradient(-45deg, RGBA(49, 41, 41, 1) 0%,RGBA(49, 41, 41, 1) 100%);
 }
 
 figure.effect-jazz img {
