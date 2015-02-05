@@ -27,6 +27,7 @@ h2 Master/Pieces
     .modal-content
       h2.lionH The Celestial Lion
       .imgModal
+        
 .modal.fade.horse(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
   .modal-dialog.modal-lg
     .modal-content
@@ -46,12 +47,18 @@ h2 Master/Pieces
       h2 Window of 
         span Thought
       p 'Imagination is but a soup of thoughts and desires, mixed with aspirations and goals, but when portrayed with color it can break all the molds. A liquid acrylic painting.
-      a(href='/#/') View more
+      a(href='/#/' data-toggle="modal" data-target=".window") View more
 .modal.fade.passenger(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
   .modal-dialog.modal-lg
     .modal-content
       h2.lionH Just A Passenger
       .imgModal3
+        
+.modal.fade.window(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      h2.lionH Window Of Thought
+      .imgModal4
 .grid
   figure.effect-jazz
     img(src='assets/dwarfs-and-giants.png', alt='img25')
