@@ -18,6 +18,9 @@ input.ng-invalid,
 select.ng-invalid {
   background-color: #ff4136;
 }
+h4 {
+  margin-top: 1200px;
+}
 #bottom_fade {
   width: 100%;
   background-size: cover;
