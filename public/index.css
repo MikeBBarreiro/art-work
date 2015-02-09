@@ -1,17 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=Cinzel+Decorative);
 body {
   /* fallback */
-  background-color: #2F2727;
-  background-image: url(images/radial_bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: #E2E2E2;
   /* Safari 4-5, Chrome 1-9 */
   /* Can't specify a percentage size */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#f2f2f2), to(#9f9f9f));
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(white), to(#9f9f9f));
   /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #f2f2f2, #9f9f9f);
+  background: -webkit-radial-gradient(circle, white, #9f9f9f);
   /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #f2f2f2, #9f9f9f);
+  background: -moz-radial-gradient(circle, white, #9f9f9f);
   /* IE 10 */
   background: -ms-radial-gradient(circle, #f2f2f2, #9f9f9f);
 }
@@ -21,6 +18,9 @@ select.ng-invalid {
 }
 h4 {
   margin-top: 1200px;
+}
+h2 {
+  text-align: center;
 }
 #bottom_fade {
   width: 100%;
@@ -43,7 +43,7 @@ h3 {
 }
 .containerMainPic {
   margin-top: -20px;
-  height: 600px;
+  height: 620px;
   width: 100%;
   border: 2px solid black;
   background-image: url('/assets/neb4.jpg');

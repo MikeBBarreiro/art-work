@@ -21,20 +21,21 @@
 body{
   // background-color: @YELLOW;
   /* fallback */
-  background-color: #2F2727;
-  background-image: url(images/radial_bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: #E2E2E2;
+  // background-image: url('/assets/1884200.jpg');
+  // background-size: 100% 100%;
+  // background-position: center center;
+  // background-repeat: no-repeat;
 
   /* Safari 4-5, Chrome 1-9 */
   /* Can't specify a percentage size */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F2F2F2), to(#9F9F9F));
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(white), to(#9F9F9F));
 
   /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #F2F2F2, #9F9F9F);
+  background: -webkit-radial-gradient(circle, white, #9F9F9F);
 
   /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #F2F2F2, #9F9F9F);
+  background: -moz-radial-gradient(circle, white, #9F9F9F);
 
   /* IE 10 */
   background: -ms-radial-gradient(circle, #F2F2F2, #9F9F9F);
@@ -45,8 +46,11 @@ input.ng-invalid, select.ng-invalid{
 }
 
 h4{
+  margin-top: 1200px;
+}
 
-margin-top: 1200px;
+h2{
+  text-align: center;
 }
 
 #bottom_fade {
@@ -75,11 +79,15 @@ h3{
   font-size: 500%;
 }
 
+.SecondContain{
+  // background-color: RGBA(49, 41, 41, 0.5);
+  // background-color: RGBA(226, 226, 226, 0.5);
+}
 
 .containerMainPic{
   margin-top: -20px;
   // margin-left: -100px;
-  height: 600px;
+  height: 620px;
   width: 100%;
   // padding: 20px;
   // background-color: yellow;
@@ -90,6 +98,7 @@ h3{
   // background-position: 50% 0;
   position: relative;
 }
+
 .headerMainPicCon{
   padding-top: 40px;
   margin-top: 96px;
