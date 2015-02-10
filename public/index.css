@@ -5,13 +5,13 @@ body {
   background-color: #E2E2E2;
   /* Safari 4-5, Chrome 1-9 */
   /* Can't specify a percentage size */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(white), to(#9f9f9f));
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(white), to(#312929));
   /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, white, #9f9f9f);
+  background: -webkit-radial-gradient(circle, white, #312929);
   /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, white, #9f9f9f);
+  background: -moz-radial-gradient(circle, white, #312929);
   /* IE 10 */
-  background: -ms-radial-gradient(circle, #f2f2f2, #9f9f9f);
+  background: -ms-radial-gradient(circle, #f2f2f2, #312929);
 }
 input.ng-invalid,
 select.ng-invalid {
@@ -22,6 +22,10 @@ h4 {
 }
 h2 {
   text-align: center;
+  margin-top: 0px !important;
+}
+#h2About {
+  color: black;
 }
 #bottom_fade {
   width: 100%;
@@ -190,6 +194,13 @@ h3 {
   .p1 {
     font-size: 8px;
   }
+}
+.aboutBackground {
+  margin-top: -18px;
+  height: 620px;
+  width: 100%;
+  background-image: url('/assets/confectionary.png');
+  background-color: rgba(226, 226, 226, 0.2);
 }
 #banner {
   margin-left: 19%;
