@@ -1,5 +1,6 @@
 // http://clrs.cc/
 @import url(//fonts.googleapis.com/css?family=Cinzel+Decorative);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
 
 @NAVY:    #001F3F;
 @BLUE:    #0074D9;
@@ -199,4 +200,134 @@ h3{
   .bobo{
     margin-left: 0px;
   }
+}
+//*****HOVER EFFECTS****//
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // blue
+  // background: #2098d1;
+  // red
+  background: #FF525B;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+// About Page
+
+.aboutUsContent{
+  background-color: RGBA(49, 41, 41, 0.5);
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-radius: 5px;
+}
+
+.p1{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 501px){
+  .p1{
+    font-size: 8px;
+  }
+}
+
+
+
+
+#banner {
+  margin-left: 19%;
+  // width: 800px;
+  // height: 300px;
+  position: relative;
+  // border: 8px solid #eee;
+  // -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+}
+
+.div2{
+  width: 100%;
+}
+
+#banner div {
+  position: absolute;
+}
+
+#banner div:nth-child(2) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom,
+      color-stop(0.00,  rgba(0,0,0,1)),
+      color-stop(0.45,  rgba(0,0,0,1)),
+      color-stop(0.50,  rgba(0,0,0,0)),
+      color-stop(0.55,  rgba(0,0,0,0)),
+      color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+@-webkit-keyframes wipe {
+  0% {
+    -webkit-mask-position: 0 0;
+  }
+  100% {
+    -webkit-mask-position: -1200px -1200px;
+  }
+}
+
+#rollover {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border: 8px solid #eee;
+  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+}
+
+#rollover div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#rollover div:nth-child(2) {
+  -webkit-transition: -webkit-mask-position 1s ease;
+  -webkit-mask-size: 600px 600px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top,
+      color-stop(0.00,  rgba(0,0,0,1)),
+      color-stop(0.35,  rgba(0,0,0,1)),
+      color-stop(0.50,  rgba(0,0,0,0)),
+      color-stop(0.75,  rgba(0,0,0,0)),
+      color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+#rollover div:nth-child(2):hover {
+  -webkit-mask-position: -300px -300px;
 }
