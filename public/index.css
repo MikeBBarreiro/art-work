@@ -23,6 +23,7 @@ h4 {
 h2 {
   text-align: center;
   margin-top: 0px !important;
+  position: relative;
 }
 #h2About {
   color: black;
@@ -61,10 +62,31 @@ h3 {
   margin-top: 96px;
   height: 100px;
   width: 100%;
-  background-color: rgba(74, 109, 225, 0.5);
+  background-color: rgba(74, 109, 225, 0.8);
 }
 .mainContain {
   background-color: black;
+}
+.leftDiv {
+  background-color: rgba(49, 41, 41, 0);
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+.background-Div {
+  width: 100%;
+  height: 700px;
+  background-image: url('assets/confectionary.png');
+  position: absolute;
+  border: 1px solid black;
+}
+.rightDiv {
+  background-color: rgba(49, 41, 41, 0);
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
 }
 .imgModal {
   height: 600px;
@@ -105,11 +127,11 @@ h3 {
   font-family: 'Cinzel Decorative', cursive;
 }
 .bobo {
-  margin-left: 400px;
+  margin-left: 450px;
 }
 @media screen and (max-width: 1050px) {
   .bobo {
-    margin-left: 350px;
+    margin-left: 370px;
   }
 }
 @media screen and (max-width: 1000px) {
