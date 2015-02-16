@@ -20,10 +20,11 @@ select.ng-invalid {
 h4 {
   margin-top: 1200px;
 }
-h2 {
+.artWork {
   text-align: center;
   margin-top: 0px !important;
   position: relative;
+  color: black;
 }
 #h2About {
   color: black;
@@ -69,15 +70,15 @@ h3 {
 }
 .leftDiv {
   background-color: rgba(49, 41, 41, 0);
-  height: 700px;
+  height: 1900px;
   width: 100%;
   position: absolute;
   z-index: 999;
 }
 .background-Div {
   width: 100%;
-  height: 700px;
-  background-image: url('assets/confectionary.png');
+  height: 2500px;
+  background-image: url('assets/copy.png');
   position: absolute;
   border: 1px solid black;
 }
@@ -126,6 +127,13 @@ h3 {
   height: 600px;
   border: 2px solid black;
   background-image: url('/assets/moonage_daydream12x18.png');
+  background-size: 100% 100%;
+}
+.imgModal7 {
+  height: 600px;
+  width: 100%;
+  border: 2px solid black;
+  background-image: url('/assets/cosmikowl.png');
   background-size: 100% 100%;
 }
 .lionH {
