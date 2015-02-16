@@ -89,16 +89,17 @@
               h2 Moonage 
                 span Daydream
               p 'After a trip to the moon our whole planet changed; the influence of humanity forever pushing the boundaries.' a liquid acrylic painting.
-              a(href='/#/') View more
-        //- .modal.fade.dwarf(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
-        //-   .modal-dialog.modal-lg
-        //-     .modal-content
-        //-       h2.lionH Just A Passenger
-        //-       .imgModal5
+              a(href='/#/' data-toggle="modal" data-target=".moon") View more
+        .modal.fade.moon(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+          .modal-dialog.modal-sm
+            .modal-content
+              h2.lionH Moonage Daydream
+              .imgModal6
+                
         .modal.fade.dwarf(tabindex='-1', role='dialog', aria-labelledby='mySmallModalLabel', aria-hidden='true')
           .modal-dialog.modal-sm
             .modal-content
-              h2.lionH Hello There
+              h2.lionH Dwarf And Gaints
               .imgModal5
 
         .grid

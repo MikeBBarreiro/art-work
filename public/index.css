@@ -122,6 +122,12 @@ h3 {
   background-image: url('/assets/dwarfs_and_giants.png');
   background-size: 100% 100%;
 }
+.imgModal6 {
+  height: 600px;
+  border: 2px solid black;
+  background-image: url('/assets/moonage_daydream12x18.png');
+  background-size: 100% 100%;
+}
 .lionH {
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
