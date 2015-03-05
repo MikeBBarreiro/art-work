@@ -49,7 +49,11 @@ input.ng-invalid, select.ng-invalid{
 h4{
   margin-top: 1200px;
 }
-
+h2{
+  text-align: center;
+  margin-top: 0px !important;
+  font-family: 'Lato', sans-serif;
+}
 .artWork{
   text-align: center;
   margin-top: 0px !important;
@@ -106,6 +110,12 @@ h3{
   background-attachment: fixed;
   // background-position: 50% 0;
   position: relative;
+//
+//   -webkit-filter: blur(5px);
+//   -moz-filter: blur(5px);
+//   -o-filter: blur(5px);
+//   -ms-filter: blur(5px);
+//   filter: blur(5px);
 }
 
 .headerMainPicCon{
@@ -125,17 +135,36 @@ h3{
   height: 1900px;
   width:100%;
   position: absolute;
-  z-index: 999;
+  // z-index: 999;
+  // background-image: url('/assets/neb4.jpg');
+  // background-size: 100% 100%;
   // z-index: 1;
 }
 
-.background-Div{
+// .background-Div{
+//   width: 100%;
+//   height: 2500px;
+//   background-image: url('assets/copy.png');
+//   position: absolute;
+//   border: 1px solid black;
+  // background-size: cover;
+// }
+
+.backgroundRight-Div{
   width: 100%;
   height: 2500px;
-  background-image: url('assets/copy.png');
+  background-image: url('assets/footer_lodyas.png');
   position: absolute;
   border: 1px solid black;
-  // background-size: cover;
+  // opacity: 0.3;
+}
+.backgroundLeft-Div{
+  width: 100%;
+  height: 2500px;
+  background-image: url('assets/footer_lodyas.png');
+  position: absolute;
+  border: 1px solid black;
+  // opacity: 0.9;
 }
 
 .rightDiv{
@@ -144,7 +173,9 @@ h3{
   height: 700px;
   width: 100%;
   position: absolute;
-  z-index: 999;
+  // z-index: 999;
+  // background-image: url('/assets/neb4.jpg');
+  // background-size: 100% 100%;
   // float: right;
   // margin-left: 1028px;
 }
@@ -232,12 +263,12 @@ h3{
 }
 
 .bobo{
-  margin-left: 450px;
+  margin-left: 445px;
 }
 
 @media screen and (max-width: 1050px){
   .bobo{
-    margin-left: 370px;
+    margin-left: 360px;
   }
 }
 @media screen and (max-width: 1000px){
@@ -268,6 +299,16 @@ h3{
 @media screen and (max-width: 501px){
   .bobo{
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 501px){
+  .backgroundLeft-Div{
+    background-image: url('');
+    border: 0px;
+  }
+  .backgroundRight-Div{
+    background-image: url('');
+    border: 0px;
   }
 }
 

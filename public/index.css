@@ -20,6 +20,11 @@ select.ng-invalid {
 h4 {
   margin-top: 1200px;
 }
+h2 {
+  text-align: center;
+  margin-top: 0px !important;
+  font-family: 'Lato', sans-serif;
+}
 .artWork {
   text-align: center;
   margin-top: 0px !important;
@@ -73,12 +78,18 @@ h3 {
   height: 1900px;
   width: 100%;
   position: absolute;
-  z-index: 999;
 }
-.background-Div {
+.backgroundRight-Div {
   width: 100%;
   height: 2500px;
-  background-image: url('assets/copy.png');
+  background-image: url('assets/footer_lodyas.png');
+  position: absolute;
+  border: 1px solid black;
+}
+.backgroundLeft-Div {
+  width: 100%;
+  height: 2500px;
+  background-image: url('assets/footer_lodyas.png');
   position: absolute;
   border: 1px solid black;
 }
@@ -87,7 +98,6 @@ h3 {
   height: 700px;
   width: 100%;
   position: absolute;
-  z-index: 999;
 }
 .imgModal {
   height: 600px;
@@ -141,11 +151,11 @@ h3 {
   font-family: 'Cinzel Decorative', cursive;
 }
 .bobo {
-  margin-left: 450px;
+  margin-left: 445px;
 }
 @media screen and (max-width: 1050px) {
   .bobo {
-    margin-left: 370px;
+    margin-left: 360px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -176,6 +186,16 @@ h3 {
 @media screen and (max-width: 501px) {
   .bobo {
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 501px) {
+  .backgroundLeft-Div {
+    background-image: url('');
+    border: 0px;
+  }
+  .backgroundRight-Div {
+    background-image: url('');
+    border: 0px;
   }
 }
 .hvr-underline-reveal {
