@@ -1,14 +1,13 @@
-h3 Login
-
-.row
-  .col-xs-3
+section.content
+  h2 Login
+  span.input.input--kaede.animated.fadeInUp
     form(role='form', novalidate, name='userForm')
-      .form-group
-        label(for='email') Email
-        input.form-control#email(type='email', name='email', ng-model='user.email', autofocus, required)
-      .form-group
-        label(for='password') Password
-        input.form-control#password(type='password', name='password', ng-model='user.password', required, ng-minlength='3')
-      button.btn.btn-primary(ng-show='userForm.$valid', ng-click='login()') Login
-  .col-xs-9
-
+      input#email.input__field.input__field--kaede(type='email', name='email', ng-model='user.email', autofocus, required)
+      label.input__label.input__label--kaede(for='email')
+        span.input__label-content.input__label-content--kaede Email
+  span.input.input--kaede.animated.fadeInUp
+    input#password.input__field.input__field--kaede(type='password', name='password', ng-model='user.password', required, ng-minlength='3')
+    label.input__label.input__label--kaede(for='password')
+      span.input__label-content.input__label-content--kaede Password
+      
+  button.btn.btn-primary.animated.bounceInUp(ng-show='userForm.$valid', ng-click='login()') Login
