@@ -1,13 +1,14 @@
-section.content
-  h2 Login
-  span.input.input--kaede.animated.fadeInUp
-    form(role='form', novalidate, name='userForm')
-      input#email.input__field.input__field--kaede(type='email', name='email', ng-model='user.email', autofocus, required)
-      label.input__label.input__label--kaede(for='email')
-        span.input__label-content.input__label-content--kaede Email
-  span.input.input--kaede.animated.fadeInUp
-    input#password.input__field.input__field--kaede(type='password', name='password', ng-model='user.password', required, ng-minlength='3')
-    label.input__label.input__label--kaede(for='password')
-      span.input__label-content.input__label-content--kaede Password
-      
-  button.btn.btn-primary.animated.bounceInUp(ng-show='userForm.$valid', ng-click='login()') Login
+.backgroundR
+  section.content
+    h2 Login
+    span.input.input--kaede.animated.fadeInUp
+      form(role='form', novalidate, name='userForm')
+        input#email.input__field.input__field--kaede(type='email', name='email', ng-model='user.email', autofocus, required)
+        label.input__label.input__label--kaede(for='email')
+          span.input__label-content.input__label-content--kaede Email
+    span.input.input--kaede.animated.fadeInUp
+      input#password.input__field.input__field--kaede(type='password', name='password', ng-model='user.password', required, ng-minlength='3')
+      label.input__label.input__label--kaede(for='password')
+        span.input__label-content.input__label-content--kaede Password
+        
+    button.btn.btn-primary.animated.bounceInUp(ng-show='userForm.$valid', ng-click='login()') Login
